@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto.pixiv",
+    "module": "pixiv-api",
+    "version": "1.4.2-snapshot-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pixiv-api-1.4.2-snapshot-2-plain.jar",
+          "url": "pixiv-api-1.4.2-snapshot-2-plain.jar",
+          "size": 23392,
+          "sha512": "a05ab29a86bc10723bc9adeba87f4a28b1ec636055fe9ea4bc0039c24389e20e3d68cc02034378defbbb28c36d9399570ec74febabd814acb21dcca15fc694cd",
+          "sha256": "b00d2883f0eb132503594f49b0152357b024deb84f4c650543f8ef3da94f4407",
+          "sha1": "71dd543cfd4c6a26f1acaef371474772feafe0f3",
+          "md5": "0ac728b2035bab420a02b53df536651d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pixiv-api-1.4.2-snapshot-2-plain.jar",
+          "url": "pixiv-api-1.4.2-snapshot-2-plain.jar",
+          "size": 23392,
+          "sha512": "a05ab29a86bc10723bc9adeba87f4a28b1ec636055fe9ea4bc0039c24389e20e3d68cc02034378defbbb28c36d9399570ec74febabd814acb21dcca15fc694cd",
+          "sha256": "b00d2883f0eb132503594f49b0152357b024deb84f4c650543f8ef3da94f4407",
+          "sha1": "71dd543cfd4c6a26f1acaef371474772feafe0f3",
+          "md5": "0ac728b2035bab420a02b53df536651d"
+        }
+      ]
+    }
+  ]
+}

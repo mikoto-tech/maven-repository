@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto.pixiv",
+    "module": "pixiv-api",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pixiv-api-1.2.0.jar",
+          "url": "pixiv-api-1.2.0.jar",
+          "size": 8250,
+          "sha512": "32796037e89dd8359245aa42019d4b0483d1e574cd9e49361a2602e9bc8f48cf6832194e75d53bd1611e37c2dc413e65d0bdfc09f76fd82ccf342a08632831be",
+          "sha256": "c3933defbf3ccbf00b3df7a50b1065eeebfff848053825d2505653a13e7ba52b",
+          "sha1": "e4d4105e93e9360014c9bed89b5147dcd9e6c745",
+          "md5": "d78642b970e1875bf26f71dde35b2d6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.79"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "22.0.0"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter",
+          "version": {
+            "requires": "5.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pixiv-api-1.2.0.jar",
+          "url": "pixiv-api-1.2.0.jar",
+          "size": 8250,
+          "sha512": "32796037e89dd8359245aa42019d4b0483d1e574cd9e49361a2602e9bc8f48cf6832194e75d53bd1611e37c2dc413e65d0bdfc09f76fd82ccf342a08632831be",
+          "sha256": "c3933defbf3ccbf00b3df7a50b1065eeebfff848053825d2505653a13e7ba52b",
+          "sha1": "e4d4105e93e9360014c9bed89b5147dcd9e6c745",
+          "md5": "d78642b970e1875bf26f71dde35b2d6c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto",
+    "module": "http-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "http-api-1.0.0.jar",
+          "url": "http-api-1.0.0.jar",
+          "size": 4100,
+          "sha512": "b4ab117c4ea9427bffba9521ace9641b61168af14ba616a625e11f589e9df672f647c2c864819b03b7689697d02085c2c8c4a936b4ca83dd58d2ff1e038f04c0",
+          "sha256": "d8ca1a13f94d9cd62e0f6e77adbe9e18d1b738df6207f317701778ec165a5803",
+          "sha1": "27a1cae45f9dd4d85e1f1f97f4cfd27134bc78ba",
+          "md5": "69e70d96d3ab90538812f34c0ed3a298"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "http-api-1.0.0.jar",
+          "url": "http-api-1.0.0.jar",
+          "size": 4100,
+          "sha512": "b4ab117c4ea9427bffba9521ace9641b61168af14ba616a625e11f589e9df672f647c2c864819b03b7689697d02085c2c8c4a936b4ca83dd58d2ff1e038f04c0",
+          "sha256": "d8ca1a13f94d9cd62e0f6e77adbe9e18d1b738df6207f317701778ec165a5803",
+          "sha1": "27a1cae45f9dd4d85e1f1f97f4cfd27134bc78ba",
+          "md5": "69e70d96d3ab90538812f34c0ed3a298"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "http-api-1.0.0-all.jar",
+          "url": "http-api-1.0.0-all.jar",
+          "size": 4100,
+          "sha512": "648fd98a96de9a1897d1431bfc0817f731cedf817af2369b776b2ca9715b8db90864ca0a680ade1b890593a3999a2b20cd0f43d9d8a98afde0c28d240939ebe5",
+          "sha256": "8d93eca9e3498cf20044bdbccd454d033df3546776aaf152fc6a06222baff2bc",
+          "sha1": "f9f6c400a666b7d0773bcd73f245f8e9294a3d15",
+          "md5": "03b467348007b9956fdd6601e8d8090e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto",
+    "module": "database-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "database-api-1.0.0.jar",
+          "url": "database-api-1.0.0.jar",
+          "size": 1684,
+          "sha512": "c1dc26e02b9dd5b12fd7857b4ad8a68ad8cce3bd3ba2ce899f50f6409340409c468b7432e1a5deddcbc58c65490a15e7717ffa6509ae973433260b21a39dcae6",
+          "sha256": "137a970ada14a0b7346b463c51a2e037022475c85f5642607ee39c1f977c59b8",
+          "sha1": "1ef7031115c4d236ea348f7fc83e4bca4aac9550",
+          "md5": "7e7130ae046cd1d6c25166610bf1bab6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "8.0.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-api-1.0.0.jar",
+          "url": "database-api-1.0.0.jar",
+          "size": 1684,
+          "sha512": "c1dc26e02b9dd5b12fd7857b4ad8a68ad8cce3bd3ba2ce899f50f6409340409c468b7432e1a5deddcbc58c65490a15e7717ffa6509ae973433260b21a39dcae6",
+          "sha256": "137a970ada14a0b7346b463c51a2e037022475c85f5642607ee39c1f977c59b8",
+          "sha1": "1ef7031115c4d236ea348f7fc83e4bca4aac9550",
+          "md5": "7e7130ae046cd1d6c25166610bf1bab6"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "database-api-1.0.0-all.jar",
+          "url": "database-api-1.0.0-all.jar",
+          "size": 4124471,
+          "sha512": "b2bb8c2a12d2e3b13d3a65c2ddfb806cd296e8dc809248ba15cec5d5ce4ff6fa31903fcae490138a56d55dbdc21ae7cc3ce3acbcbbef313866917a4cb6e66246",
+          "sha256": "3bc346fbe68dbc7e4c4b5ce2a651c2c9b7b5f2504898ccba9491f42a5312d090",
+          "sha1": "e17a404aa504b85f27bd4de04732b6cf0ad55784",
+          "md5": "22f443234ebd808ee76aaf8c8c66bb10"
+        }
+      ]
+    }
+  ]
+}

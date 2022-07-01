@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto.pixiv",
+    "module": "pixiv-api",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pixiv-api-1.1.0.jar",
+          "url": "pixiv-api-1.1.0.jar",
+          "size": 5437,
+          "sha512": "5fd9706314504e6bf59e556b4cd75dad620840ae7da53005e1d73ad888422ca02bc99f453ee61db01021a5b59894a5b50b8ff7a673a37b0fb087733346edf86d",
+          "sha256": "7708f05b6f7ed41f2f55945475471f2f9e93bb313d70082bbe890af381d5b93a",
+          "sha1": "9d56b08d699e34714fafc49ad1a5bc0ca241ad7a",
+          "md5": "1157569cfb631eb27c6c995d9f775ebb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.79"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "22.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pixiv-api-1.1.0.jar",
+          "url": "pixiv-api-1.1.0.jar",
+          "size": 5437,
+          "sha512": "5fd9706314504e6bf59e556b4cd75dad620840ae7da53005e1d73ad888422ca02bc99f453ee61db01021a5b59894a5b50b8ff7a673a37b0fb087733346edf86d",
+          "sha256": "7708f05b6f7ed41f2f55945475471f2f9e93bb313d70082bbe890af381d5b93a",
+          "sha1": "9d56b08d699e34714fafc49ad1a5bc0ca241ad7a",
+          "md5": "1157569cfb631eb27c6c995d9f775ebb"
+        }
+      ]
+    }
+  ]
+}

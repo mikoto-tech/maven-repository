@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto.pixiv",
+    "module": "pixiv-forward-connector",
+    "version": "1.1.2-snapshot-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pixiv-forward-connector-1.1.2-snapshot-1-plain.jar",
+          "url": "pixiv-forward-connector-1.1.2-snapshot-1-plain.jar",
+          "size": 7891,
+          "sha512": "863ad1a6a98daebcf176856222331d14244364a2ae3a95b521370b65438a816d092dfef1025e8263fccae4121a0074b328ef3433b9e6e7b89cdd1fbe8940557e",
+          "sha256": "0c5ad61b8afeec7d565833ab8d320e2a7a12e5fb7eed5c1d6e423295f5f926ff",
+          "sha1": "20571692f66e6e55ee5015b678fff7139e7455e1",
+          "md5": "d2af8ee6c2ecd9fcd1446c7b811a76e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pixiv-forward-connector-1.1.2-snapshot-1-plain.jar",
+          "url": "pixiv-forward-connector-1.1.2-snapshot-1-plain.jar",
+          "size": 7891,
+          "sha512": "863ad1a6a98daebcf176856222331d14244364a2ae3a95b521370b65438a816d092dfef1025e8263fccae4121a0074b328ef3433b9e6e7b89cdd1fbe8940557e",
+          "sha256": "0c5ad61b8afeec7d565833ab8d320e2a7a12e5fb7eed5c1d6e423295f5f926ff",
+          "sha1": "20571692f66e6e55ee5015b678fff7139e7455e1",
+          "md5": "d2af8ee6c2ecd9fcd1446c7b811a76e7"
+        }
+      ]
+    }
+  ]
+}

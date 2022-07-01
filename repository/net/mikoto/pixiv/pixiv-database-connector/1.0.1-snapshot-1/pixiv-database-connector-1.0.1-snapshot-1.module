@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mikoto.pixiv",
+    "module": "pixiv-database-connector",
+    "version": "1.0.1-snapshot-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pixiv-database-connector-1.0.1-snapshot-1-plain.jar",
+          "url": "pixiv-database-connector-1.0.1-snapshot-1-plain.jar",
+          "size": 5824,
+          "sha512": "99af46c03ead239dee7f74593f60636e961a714f230424ecfc7335ca00fcec071d83785b5a9182f94afcb154da643572f79c04f0f515b160ac2d16c891857679",
+          "sha256": "2ae11f7869fd2bce8aa0b5a2b3266802e84f87e6b12848d442e5d99341d75816",
+          "sha1": "134fb975cd507223934647e3ec44a1d62c3ceaf2",
+          "md5": "d57b27e1caeb3aea71133b1d1b4951fc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pixiv-database-connector-1.0.1-snapshot-1-plain.jar",
+          "url": "pixiv-database-connector-1.0.1-snapshot-1-plain.jar",
+          "size": 5824,
+          "sha512": "99af46c03ead239dee7f74593f60636e961a714f230424ecfc7335ca00fcec071d83785b5a9182f94afcb154da643572f79c04f0f515b160ac2d16c891857679",
+          "sha256": "2ae11f7869fd2bce8aa0b5a2b3266802e84f87e6b12848d442e5d99341d75816",
+          "sha1": "134fb975cd507223934647e3ec44a1d62c3ceaf2",
+          "md5": "d57b27e1caeb3aea71133b1d1b4951fc"
+        }
+      ]
+    }
+  ]
+}
