@@ -27,11 +27,11 @@
         {
           "name": "pixiv-core-1.4.3-snapshot-1-plain.jar",
           "url": "pixiv-core-1.4.3-snapshot-1-plain.jar",
-          "size": 35061,
-          "sha512": "68504850738303f57ef0ab915c7a8acb8b38b45497c8286c8934f3f2173206157736f6ec6e6585b11f706764a18457bc0e6519f87448801db35c303dacf8c2a3",
-          "sha256": "a539a4c266f97bbead5c40f1c1a8a4e8b0ec666b96f74d265ec3ad236a656c33",
-          "sha1": "f9fcd775284b6053c9d49b46a0860e0932783dc2",
-          "md5": "1f2cf4951f99d6ca11dea6d3fbbcb640"
+          "size": 38480,
+          "sha512": "6822884ba7b346664982fa5c551e1b9cec4b86cfa87932e973d1dd25d4be76da5972127e99aa1a4cddb92bf59e62a707180ef7f52cfd72e8603510050a5b934a",
+          "sha256": "4c926874c42d0a7c8b112fc209f1f0b19274bf2da9c614163eb2695d0cad294e",
+          "sha1": "acbb3cbecca60bfd188f566ddfd7a6fad623bfda",
+          "md5": "921f5e07504123d16dd82288b63d3f30"
         }
       ]
     },
@@ -44,15 +44,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
+      "dependencies": [
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ],
       "files": [
         {
           "name": "pixiv-core-1.4.3-snapshot-1-plain.jar",
           "url": "pixiv-core-1.4.3-snapshot-1-plain.jar",
-          "size": 35061,
-          "sha512": "68504850738303f57ef0ab915c7a8acb8b38b45497c8286c8934f3f2173206157736f6ec6e6585b11f706764a18457bc0e6519f87448801db35c303dacf8c2a3",
-          "sha256": "a539a4c266f97bbead5c40f1c1a8a4e8b0ec666b96f74d265ec3ad236a656c33",
-          "sha1": "f9fcd775284b6053c9d49b46a0860e0932783dc2",
-          "md5": "1f2cf4951f99d6ca11dea6d3fbbcb640"
+          "size": 38480,
+          "sha512": "6822884ba7b346664982fa5c551e1b9cec4b86cfa87932e973d1dd25d4be76da5972127e99aa1a4cddb92bf59e62a707180ef7f52cfd72e8603510050a5b934a",
+          "sha256": "4c926874c42d0a7c8b112fc209f1f0b19274bf2da9c614163eb2695d0cad294e",
+          "sha1": "acbb3cbecca60bfd188f566ddfd7a6fad623bfda",
+          "md5": "921f5e07504123d16dd82288b63d3f30"
         }
       ]
     }

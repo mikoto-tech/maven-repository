@@ -10,8 +10,8 @@
   <artifactId>pixiv-core</artifactId>
   <version>1.4.3-snapshot-1</version>
   <packaging>pom</packaging>
-  <name>pixiv-database-connector</name>
-  <description>Mikoto pixiv database connector</description>
+  <name>pixiv-core</name>
+  <description>Mikoto pixiv core</description>
   <url>https://mikoto.net.cn</url>
   <licenses>
     <license>
@@ -26,6 +26,14 @@
       <email>mikoto@ungine.cn</email>
     </developer>
   </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-commons</artifactId>
+      <version>2.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
   <dependencyManagement>
     <dependencies>
       <dependency>
