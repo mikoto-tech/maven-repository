@@ -27,11 +27,11 @@
         {
           "name": "pixiv-core-1.4.3-plain.jar",
           "url": "pixiv-core-1.4.3-plain.jar",
-          "size": 46528,
-          "sha512": "4c8b2c7fff6ab9b0ad9f666b9b9bc3493450cf78b1194bb39f8e3cce78343ca5a3431fa404ddb6fd583920ddeebaf1a2876a3bef22685eede8543345e2d4359d",
-          "sha256": "06be831794d0df6ead099f4c4dd1e727bbc97a5dadcd63f8f462650e42982d6b",
-          "sha1": "eaa868ca8f37d5000b98c7e827845721b994df0f",
-          "md5": "8ef15e36ea048329edcc8ed5e691e260"
+          "size": 47017,
+          "sha512": "5b990fe0d096609aa93cfba47543e95508a610ab9f7ea6e58562679011811444a71f7a3ddc35c81d9ae92ab28ac31c1510a0951e7f326d3c271124b059fdd7cf",
+          "sha256": "0f9ef9104b96cbfbf2df0657126a761c94dbb46b8f49fddd9131d068cc4ceb53",
+          "sha1": "2effdad54261def50e96310af637bc487949c335",
+          "md5": "5f067f2f42109fbf84d79c54f2dfd764"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "org.springframework.data",
           "module": "spring-data-commons",
           "version": {
-            "requires": "2.7.0"
+            "requires": "2.7.2"
           }
         }
       ],
@@ -57,11 +57,11 @@
         {
           "name": "pixiv-core-1.4.3-plain.jar",
           "url": "pixiv-core-1.4.3-plain.jar",
-          "size": 46528,
-          "sha512": "4c8b2c7fff6ab9b0ad9f666b9b9bc3493450cf78b1194bb39f8e3cce78343ca5a3431fa404ddb6fd583920ddeebaf1a2876a3bef22685eede8543345e2d4359d",
-          "sha256": "06be831794d0df6ead099f4c4dd1e727bbc97a5dadcd63f8f462650e42982d6b",
-          "sha1": "eaa868ca8f37d5000b98c7e827845721b994df0f",
-          "md5": "8ef15e36ea048329edcc8ed5e691e260"
+          "size": 47017,
+          "sha512": "5b990fe0d096609aa93cfba47543e95508a610ab9f7ea6e58562679011811444a71f7a3ddc35c81d9ae92ab28ac31c1510a0951e7f326d3c271124b059fdd7cf",
+          "sha256": "0f9ef9104b96cbfbf2df0657126a761c94dbb46b8f49fddd9131d068cc4ceb53",
+          "sha1": "2effdad54261def50e96310af637bc487949c335",
+          "md5": "5f067f2f42109fbf84d79c54f2dfd764"
         }
       ]
     }

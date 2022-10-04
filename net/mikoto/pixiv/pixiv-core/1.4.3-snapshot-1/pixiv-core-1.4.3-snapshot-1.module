@@ -27,11 +27,11 @@
         {
           "name": "pixiv-core-1.4.3-snapshot-1-plain.jar",
           "url": "pixiv-core-1.4.3-snapshot-1-plain.jar",
-          "size": 38480,
-          "sha512": "6822884ba7b346664982fa5c551e1b9cec4b86cfa87932e973d1dd25d4be76da5972127e99aa1a4cddb92bf59e62a707180ef7f52cfd72e8603510050a5b934a",
-          "sha256": "4c926874c42d0a7c8b112fc209f1f0b19274bf2da9c614163eb2695d0cad294e",
-          "sha1": "acbb3cbecca60bfd188f566ddfd7a6fad623bfda",
-          "md5": "921f5e07504123d16dd82288b63d3f30"
+          "size": 40869,
+          "sha512": "777771f6a2cb0ad9787fbc963e9ae077277e820e0f94cbe96b734150eae7d8e33775adb6944d59b642c2f3d4cecbf9359271a5a7d302afc6cf879150aef681ab",
+          "sha256": "94d0671aec3b222c2783cae2460dc139148beb927a973578a366d8d4ea0a4fef",
+          "sha1": "5fd2dc1fd09e5b34a1de26443a2175b5e9e7b3a2",
+          "md5": "22af9b68142a1e902f7d151129556502"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "pixiv-core-1.4.3-snapshot-1-plain.jar",
           "url": "pixiv-core-1.4.3-snapshot-1-plain.jar",
-          "size": 38480,
-          "sha512": "6822884ba7b346664982fa5c551e1b9cec4b86cfa87932e973d1dd25d4be76da5972127e99aa1a4cddb92bf59e62a707180ef7f52cfd72e8603510050a5b934a",
-          "sha256": "4c926874c42d0a7c8b112fc209f1f0b19274bf2da9c614163eb2695d0cad294e",
-          "sha1": "acbb3cbecca60bfd188f566ddfd7a6fad623bfda",
-          "md5": "921f5e07504123d16dd82288b63d3f30"
+          "size": 40869,
+          "sha512": "777771f6a2cb0ad9787fbc963e9ae077277e820e0f94cbe96b734150eae7d8e33775adb6944d59b642c2f3d4cecbf9359271a5a7d302afc6cf879150aef681ab",
+          "sha256": "94d0671aec3b222c2783cae2460dc139148beb927a973578a366d8d4ea0a4fef",
+          "sha1": "5fd2dc1fd09e5b34a1de26443a2175b5e9e7b3a2",
+          "md5": "22af9b68142a1e902f7d151129556502"
         }
       ]
     }
